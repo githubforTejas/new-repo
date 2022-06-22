@@ -80,7 +80,7 @@ public class ToCreateAndVerifyPurchaseOrderAndSelectUserRadioButtonTest extends 
 		newProduct.manufacturer(manufacturer);
 		newProduct.saveBtn();
 
-
+//bye all
 		ProductsInfoPage info=new ProductsInfoPage(driver);
 		String productTitle = info.getProduct().getText();
 

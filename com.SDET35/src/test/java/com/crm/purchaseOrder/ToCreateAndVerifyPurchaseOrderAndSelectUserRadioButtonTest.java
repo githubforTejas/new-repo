@@ -69,7 +69,8 @@ public class ToCreateAndVerifyPurchaseOrderAndSelectUserRadioButtonTest extends 
 		//Click on Products link
 		HomePage home=new HomePage(driver);
 		home.productsLink();
-
+		
+                 //create an object
 		ProductsPage product=new ProductsPage(driver);
 		product.createNewProductsLookUpImg();
 

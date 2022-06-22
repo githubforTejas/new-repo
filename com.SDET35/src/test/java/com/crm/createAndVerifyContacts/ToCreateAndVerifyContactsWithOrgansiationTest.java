@@ -23,7 +23,7 @@ public class ToCreateAndVerifyContactsWithOrgansiationTest extends BaseClass {
 		//To get the random number
 		int randomNum = java.getRandomNumber();
 
-		//to get the data from excel
+		//
 		String mr = excel.getValueFromExcel("Contacts",2,10);
 		String organizationName = excel.getValueFromExcel("Organizations",1,2)+randomNum;
 		String bill_State = excel.getValueFromExcel("Organizations",1, 5)+randomNum;

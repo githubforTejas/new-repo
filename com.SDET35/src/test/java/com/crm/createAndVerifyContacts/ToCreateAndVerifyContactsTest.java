@@ -28,7 +28,7 @@ public class ToCreateAndVerifyContactsTest extends BaseClass{
 	@Test(groups="SmokeTest",retryAnalyzer = com.crm.genericutility.RetryAnalyserImp.class)
 	public  void toCreateAndVerifyContactsTest() throws IOException, InterruptedException {
 
-	         //To get the random number(Moolangi sambar)
+	         //To get the random number
 		int randomNum = java.getRandomNumber();
 
 		//to get the data from excel

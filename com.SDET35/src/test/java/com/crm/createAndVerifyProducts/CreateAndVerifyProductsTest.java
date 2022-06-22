@@ -30,7 +30,7 @@ public class CreateAndVerifyProductsTest extends BaseClass
 	@Test(groups="SmokeTest",retryAnalyzer = com.crm.genericutility.RetryAnalyserImp.class)
 	public void createAndVerifyProductsTest() throws IOException {
 
-		//to get random number
+		//to get random number(>>>>>>>>)
 		int randomNum = java.getRandomNumber();
 
 		//to get data from excel

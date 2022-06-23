@@ -26,7 +26,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class ToCreateAndVerifyContactsTest extends BaseClass{
 
 	@Test(groups="SmokeTest",retryAnalyzer = com.crm.genericutility.RetryAnalyserImp.class)
-	public  void toCreateAndVerifyContactsTest() throws IOException, InterruptedException 
+	public  void toCreateAndVerifyContactsTest() throws IOException, InterruptedException {
 		
 		
 	           //(RAJAKUMARA) 
